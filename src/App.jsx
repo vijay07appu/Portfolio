@@ -116,7 +116,6 @@ function App() {
       src: Project1,
       title: 'ShopNest',
       subtitle: 'It is a web application focused on providing e-commerce services.',
-     
       link1: 'https://vijay07-ecommercezz.netlify.app/',
       link2:'https://github.com/vijay07appu/React-Ecommerce'
 
@@ -127,7 +126,6 @@ function App() {
       src: Project2,
       title: 'Movizz',
       subtitle: 'It is a web application focuses on providing video streaming services.',
-
       link1:'https://vijay07-movizzzz.netlify.app/',
       link2:'https://github.com/vijay07appu/Movizz'
 
@@ -137,7 +135,6 @@ function App() {
       src: Project3,
       title: 'Checkmate',
       subtitle: 'It is a web application , used to track user daily routine.',
-   
       link1:'https://vijay-jd-todo.netlify.app/',
       link2:'https://github.com/vijay07appu/To-Do'
 
@@ -274,6 +271,7 @@ function App() {
             </div>
           </section>
           {/* Projects section */}
+          {/* Tech stack is removed  */}
           <section className="py-14" id="projects"  >
             <div className='max-w-screen-lg mx-auto  p-4 flex flex-col justify-center w-full h-full text-white'>
               <div>
