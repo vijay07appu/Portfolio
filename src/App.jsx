@@ -1,6 +1,6 @@
 import "./App.css";
 import Porfile from "./assets/vijay07_profile.jpeg";
-import Project1 from "./assets/E-commerce-pic.png";
+import Project1 from "./assets/ecommerce-pic.png";
 import Project2 from "./assets/Movizz-pic.png";
 import Project3 from "./assets/Todo-pic.png";
 import Project4 from "./assets/project4.png";
@@ -116,7 +116,7 @@ function App() {
       src: Project1,
       title: 'ShopNest',
       subtitle: 'It is a web application focused on providing e-commerce services.',
-      tech:'Html,Css,Javascript,React,Firebase,Razorpay',
+     
       link1: 'https://vijay07-ecommercezz.netlify.app/',
       link2:'https://github.com/vijay07appu/React-Ecommerce'
 
@@ -127,7 +127,7 @@ function App() {
       src: Project2,
       title: 'Movizz',
       subtitle: 'It is a web application focuses on providing video streaming services.',
-      tech:'Html,Css,Javascript,React,Firebase',
+
       link1:'https://vijay07-movizzzz.netlify.app/',
       link2:'https://github.com/vijay07appu/Movizz'
 
@@ -137,7 +137,7 @@ function App() {
       src: Project3,
       title: 'Checkmate',
       subtitle: 'It is a web application , used to track user daily routine.',
-      tech:'Html,Css,Javascript,React',
+   
       link1:'https://vijay-jd-todo.netlify.app/',
       link2:'https://github.com/vijay07appu/To-Do'
 
@@ -285,14 +285,13 @@ function App() {
                   projets.map(({ id, src, title, subtitle,tech,link1,link2 }) => (
 
                     <div key={id} className="border border-gray-500 rounded-md p-5 flex-1">
-                      <img src={src} className="w-[400px] h-[200px]"/>
+                      <img src={src} className="w-full h-auto"/>
                       <h3 className="text-2xl font-semibold mt-8">
                         {title}
                       </h3>
                       <p className="text-gray-400 items-center text-sm mt-2 ">
                         {subtitle}
                       </p>
-                      <h4 className="mt-2">{tech}</h4>
                       <div className="flex mt-10  gap-2">
                         <button className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                           <a href={link1}>
